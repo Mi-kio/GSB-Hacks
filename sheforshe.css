@@ -1,0 +1,444 @@
+.menu{
+    background-color: black;
+    background-size: cover;
+    background:black;
+    color:rgb(227, 11, 92);
+    margin-top:0px;
+    margin-bottom:15px;
+    margin-left:0px;
+    margin-right:0px;
+    font-size: 20px;
+    box-shadow: 0 0 1.5px rgb(0 0 0 / 2%), 0 0 3.6px rgb(0 0 0 / 3%), 0 0 6.8px rgb(0 0 0 / 4%), 0 0 12.1px rgb(0 0 0 / 4%), 0 0 22.6px rgb(0 0 0 / 5%), 0 0 54px rgb(0 0 0 / 7%);
+    padding-top:15px;
+    padding-bottom:15px;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    position:absolute !important;
+    background-size:cover;
+}
+
+a:link{
+    color: rgb(227, 11, 92) !important;
+    background-color: transparent !important;
+     text-decoration:none !important;
+     padding-left:10px;
+     padding-right:10px;
+ }
+ 
+ a:visited{
+     text-decoration:none !important;
+     color: rgb(227, 11, 92)!important;
+ }
+
+ a:hover{
+     text-decoration:none !important;
+     color:whitesmoke !important;
+ }
+
+ a:active{
+     text-decoration:none !important;
+     color:white !important;
+ }
+
+body{
+    background-color:black !important;
+    color:rgb(227, 11, 92);
+    background:black;
+    
+}
+
+.padd{
+    padding-left: 22px;
+    padding-right:22px;
+}
+
+.logo{
+    font-size:70px;
+    color:rgb(227, 11, 92);
+    text-align: center;
+    align-items: center;
+   /* font-family: 'Anton', sans-serif;*/
+   font-family: 'Sacramento', cursive;
+    font-weight: bolder;
+    text-decoration-color: seashell;
+
+}
+
+.screen1{
+    background-image:url("lady.jpg");
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: cover;
+    text-align: center;
+}
+
+ .bold-pink-font{
+    font-size:70px;
+    color:black;
+    text-align: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+  
+    }
+
+    .bold-pink-font::before{
+        font-size:50px;
+        color:black;
+        text-align: center;
+        text-emphasis-color: white;
+        align-items: center;
+        font-family: 'Anton', sans-serif;
+        font-weight: bold;
+        content:"Join the community of women who live for each other";
+        animation: change-text 8s infinite;
+        }
+       
+    
+
+ @keyframes change-text{
+
+    20% {content:"Feel proud to be woman and join the community!";}
+    40% {content:"Help each other in growing up by learning together";}
+    60% {content:"If we are together, no on can dare to break us";}
+    80% {content:"Every mother, sister, daughter is welcome";}
+      
+  }
+
+   .pink-button{
+    color:white;
+    background-color:rgb(227, 11, 92);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 5px;
+    font-size: 20px;
+    border-radius: 25em;
+    border-color: azure;
+    border-style: solid;
+    padding: .8em 2em;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+   }
+
+
+.pink-button:hover{
+    transform:scale(1.02);
+    color:rgb(227, 11, 92);
+    background-color: white;
+    border-color: rgb(227, 11, 92);
+
+}
+
+.star{
+    animation: star-color-change 3s infinite;
+    color:white;
+    background-color: transparent;
+    size:10px;
+    font-size:25px !important;
+   
+   }
+  
+  
+  @keyframes star-color-change {
+    0% { color: rgb(227, 11, 92); }
+    50% { color: black; }
+    100% { color:rgb(227, 11, 92); }
+    
+  }
+
+  .about-section{
+      align-items:center;
+  }
+   
+
+  .quote{
+    font-size:50px;
+    color:rgb(227, 11, 92);
+    text-align: center;
+    align-items: center;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: bolder;
+    padding-left:15px;
+    padding-right:15px;
+  
+    }
+
+    .common-heading{
+    font-size:50px;
+    color:rgb(227, 11, 92);
+    text-align: center;
+    align-items: center;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: bolder;
+    padding-left:15px;
+    padding-right:15px;
+    }
+
+    .common-white-text{
+        font-size:19px;
+        color:white;
+        text-align: justify;
+        align-items: center;
+        font-family: 'Encode Sans SC', sans-serif;
+        font-weight: bolder;
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+
+    .common-black-text{
+        font-size:20px;
+        font-family:'Lato', sans-serif;
+        color:black;
+        align-items:center;
+        font-weight:bolder;
+        text-align:center; 
+        margin-left:15px;
+        margin-right:15px;
+    }
+
+
+.icons{
+    color:white;
+    font-size:40px !important;
+    size:30px;
+}
+
+.in{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: azure;
+    border-style: solid;
+    padding: 2px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+    color:black;
+}
+
+
+.sec{
+    margin:60px 60px 60px 60px;
+    background-color:black;
+    box-shadow: 0 0 1.5px rgb(0 0 0 / 2%), 0 0 3.6px rgb(0 0 0 / 3%), 0 0 6.8px rgb(0 0 0 / 4%), 0 0 12.1px rgb(0 0 0 / 4%), 0 0 22.6px rgb(0 0 0 / 5%), 0 0 54px rgb(0 0 0 / 7%);
+    border-radius: 8px;
+    padding: 20px 20px 20px 20px;
+}
+
+.sect{
+    display:grid;
+}
+
+.img-in-blog{
+    width:30%;
+    height:30%;
+    align-items: center;
+    text-align:center;
+}
+
+.screen-for-helpline{
+    background-image:url("https://images.unsplash.com/photo-1591961310354-91ca99664c65?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z2lybCUyMGJsYWNrJTIwYW5kJTIwd2hpdGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.bold-white-font{
+    font-size:70px;
+    color:black;
+    text-align: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    
+  
+    }
+
+    .col-helpline{
+        color:white;
+        background-color:rgb(227, 11, 92);
+        padding: 5px 5px 5px 5px;
+        margin-bottom:8px;
+        margin-left:3px;
+        margin-right:3px;
+        align-items: justify;
+        box-shadow: 0 0 1.5px rgb(0 0 0 / 2%), 0 0 3.6px rgb(0 0 0 / 3%), 0 0 6.8px rgb(0 0 0 / 4%), 0 0 12.1px rgb(0 0 0 / 4%), 0 0 22.6px rgb(0 0 0 / 5%), 0 0 54px rgb(0 0 0 / 7%);
+        border-radius: 8px;
+        
+    }
+
+    /*Form*/
+    .form-bg{
+        background-image: url("https://files.123freevectors.com/wp-content/original/170510-pink-purple-and-black-watercolor-background-image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .form{
+        align-items: center;
+        text-align: center;
+        background-color:black;
+        
+    }
+
+    .asks{
+        font-size:21px;
+        color:white;
+        text-align: center;
+        align-items: center;
+        font-weight: bolder;
+        font-family: sans-serif;
+        word-spacing: 2px;
+    }
+
+    .entries{
+        font-size:17px;
+        color:black;
+        text-align: center;
+        align-items: center;
+        font-weight: bolder;
+        font-family:sans-serif;
+        border-style: dotted;
+        border-color: rgb(227, 11, 92);
+        border-radius: 2px;
+        align-content: center;
+        padding:5px 85px 5px 85px;
+    }
+
+    .star2{
+        animation: star-color-change 3s infinite;
+        color:white;
+        background-color: transparent;
+        size:5px;
+        font-size:5px !important;
+        text-align: center;
+    }
+
+   
+
+  @keyframes star-color-change {
+    0% { color: rgb(227, 11, 92); }
+    50% { color: black; }
+    100% { color:rgb(227, 11, 92); }
+    
+  }
+
+  /*Cyber bullying heading*/
+  .cyber-heading{
+    background-image: url("https://mocah.org/uploads/posts/5412235-street-art-graffiti-art-wall-concrete-purple-teal-pink-background-paint-painted-wall-color-colourful-circle-brush-strokes-black-blue-shape-canada-toronto-public-domain-images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.common-white-bg{
+  background-image:url("https://mocah.org/uploads/posts/5412235-street-art-graffiti-art-wall-concrete-purple-teal-pink-background-paint-painted-wall-color-colourful-circle-brush-strokes-black-blue-shape-canada-toronto-public-domain-images.jpg");
+  padding: 15px 15px 15px 15px;
+  align-content: center;
+  align-items:center;
+  margin-left:200px;
+  margin-right:200px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(227, 11, 92);
+  box-shadow: 0 0 1.5px rgb(0 0 0 / 2%), 0 0 3.6px rgb(0 0 0 / 3%), 0 0 6.8px rgb(0 0 0 / 4%), 0 0 12.1px rgb(0 0 0 / 4%), 0 0 22.6px rgb(0 0 0 / 5%), 0 0 54px rgb(0 0 0 / 7%);
+  border-radius: 8px;
+  backdrop-filter: blur(25px);
+
+}
+
+/*Moving sqaure*/
+
+.shape{      
+    float:center;
+    width:20px;
+    height:20px;
+    shape-outside: inset(20px 5px 30px 10px);
+    background: rgb(217, 243, 237);
+    align-items: center;
+    position: relative!important;
+    display: inline-block!important;
+    box-sizing: border-box;
+    transition: transform .1s ease-in-out;
+    border-radius: 2px;
+}
+
+.shape:hover{
+  animation: move 5s;
+
+}
+
+@keyframes move{
+  20% {transform: rotate(360deg);}
+ 40% {transform: rotate(360deg);}
+}
+
+/*borrowed*/
+.div3{
+
+    color:black;
+   /* background-image:url("https://files.123freevectors.com/wp-content/original/162694-dark-purple-watercolor-background-texture.jpg");*/
+   background:rgb(227, 11, 92);
+    font-size: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 20px;
+    border-radius: 0%;
+   padding:20px 40px 0px 40px;
+    box-shadow: 0 0 1.5px rgb(0 0 0 / 2%), 0 0 3.6px rgb(0 0 0 / 3%), 0 0 6.8px rgb(0 0 0 / 4%), 0 0 12.1px rgb(0 0 0 / 4%), 0 0 22.6px rgb(0 0 0 / 5%), 0 0 54px rgb(0 0 0 / 7%);
+    margin-right:50px;
+    margin-left:57px;
+    text-align: center;
+    border-radius: 5px;
+    align-content: center;
+}
+
+
+.div3:hover{
+transform:scale(1.02);
+}
+
+.img1{
+    border-radius:0px;
+    width:100%;
+    height:110%;
+}
+
+.common-white-bg{
+    background-image:url("https://mocah.org/uploads/posts/5412235-street-art-graffiti-art-wall-concrete-purple-teal-pink-background-paint-painted-wall-color-colourful-circle-brush-strokes-black-blue-shape-canada-toronto-public-domain-images.jpg");
+    padding: 15px 15px 15px 15px;
+    align-content: center;
+    align-items:center;
+    margin-left:200px;
+    margin-right:200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(227, 11, 92);
+    box-shadow: 0 0 1.5px rgb(0 0 0 / 2%), 0 0 3.6px rgb(0 0 0 / 3%), 0 0 6.8px rgb(0 0 0 / 4%), 0 0 12.1px rgb(0 0 0 / 4%), 0 0 22.6px rgb(0 0 0 / 5%), 0 0 54px rgb(0 0 0 / 7%);
+    border-radius: 8px;
+    backdrop-filter: blur(25px);
+  }
+
+  .common-img-bg{
+    background-image:url("https://hope1032.com.au/wp-content/uploads/2019/06/Teenage-Girl-with-Phone-Stressed-1500.jpg");
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0 0 1.5px rgb(0 0 0 / 2%), 0 0 3.6px rgb(0 0 0 / 3%), 0 0 6.8px rgb(0 0 0 / 4%), 0 0 12.1px rgb(0 0 0 / 4%), 0 0 22.6px rgb(0 0 0 / 5%), 0 0 54px rgb(0 0 0 / 7%);
+    border-radius: 8px;
+    backdrop-filter: blur(25px);
+  }
+
+  .menu1{
+    padding:20px 5px 5px 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color:white;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size:35px;
+}
+
+.menu1:hover{
+    color:white !important;
+}
+
+.black-bg{
+    background-color:black;
+    padding:15px 15px 15px 15px;
+}
